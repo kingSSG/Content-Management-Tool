@@ -1,0 +1,277 @@
+body {
+    align-items: center;
+    cursor: default;
+    background: linear-gradient(-45deg, rgb(7, 7, 164), #61a5e1);
+}
+
+#container {
+    margin-top: 8rem;
+    width: 30rem;
+    height: fit-content;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.container {
+    margin: 1.5rem 0;
+    overflow: hidden;
+}
+
+.containerTitle {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.containerForm {
+    margin-top: 2rem;
+    width: 18rem;
+    padding: 1rem;
+}
+
+.containerForm div {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    position: relative;
+    left: -0.5rem;
+    padding-bottom: 0.1rem;
+    cursor: default;
+    font-family: 'Ysabeau', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.containerForm input {
+    width: 100%;
+    font-size: 1.1rem;
+    position: relative;
+    left: -0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(168, 171, 212);
+}
+
+#container #signInContainer #signInForm .remMe {
+    display: flex;
+    left: 0.1rem;
+    font-size: 1rem;
+}
+
+#container #signInContainer #signInForm .remMe label {
+    cursor: pointer;
+}
+
+#container #signInContainer #signInForm .remMe input {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.btnContainer {
+    display: flex;
+    width: 105%;
+    justify-content: space-between;
+}
+
+.btnContainer button {
+    position: relative;
+    padding: 0.4rem 1rem;
+    background-color: rgb(61, 61, 225);
+    color: rgb(234, 234, 243);
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 15px;
+    transition: all 0.2s;
+}
+
+.btnContainer .submitBtn {
+    background-color: rgba(215, 217, 244, 0.8);
+    color: rgb(61, 61, 225);
+    border: 2px solid rgb(61, 61, 225);
+}
+
+.btnContainer .submitBtn:hover {
+    background-color: rgb(61, 61, 225);
+    color: rgb(215, 217, 244);
+    border: 2px solid rgb(16, 7, 81);
+}
+
+.container .btnContainer .nextBtn {
+    background-color: transparent;
+    color: rgb(203, 203, 203);
+    border: 2px solid transparent;
+}
+
+.container .btnContainer .nextBtn:hover {
+    border: 2px solid rgb(199, 230, 255);
+    color: rgb(199, 230, 255);
+    border-radius: 15px;
+}
+
+#container #signInContainer #signInForm #forgottenPwd {
+    display: Inline-block;
+    margin-top: 01.3rem;
+    transition: all 0.2s;
+    color: rgba(255, 255, 255, 0.705);
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 9rem;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+#container #signInContainer #signInForm #forgottenPwd:hover {
+    color: rgb(221, 228, 243);
+}
+
+/* **************************************************************** */
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 1.5rem 0;
+}
+
+#container #forgotPwdContainer #forgotPwdTitle {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+#container #forgotPwdContainer #forgotPwdForm {
+    margin-top: 2rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.msg {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    width: 105%;
+    margin-left: -0.5rem;
+    ;
+    position: relative;
+    cursor: default;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.87);
+    border-radius: 5px;
+    padding: 0.1rem 0 0.2rem 0;
+    text-align: center;
+}
+
+#container #forgotPwdContainer #forgotPwdForm input {
+    width: 100%;
+    font-size: 1.1rem;
+    position: relative;
+    left: -0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(168, 171, 212);
+}
+
+#container #forgotPwdContainer #forgotPwdForm button {
+    position: relative;
+    padding: 0.4rem 1rem;
+    color: rgb(113, 42, 14);
+    background-color: rgb(235, 194, 150);
+    border: 2px solid rgb(103, 66, 22);
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 15px;
+    transition: all 0.2s;
+}
+
+.confirmOTPBtn {
+    color: rgb(33, 110, 5);
+    background-color: rgb(157, 235, 150);
+    border: 2px solid rgb(33, 110, 5);
+}
+
+.createPasswordBtn {
+    color: rgb(227, 235, 247);
+    background-color: #6665ed;
+    border: 2px solid rgb(227, 235, 247);
+}
+
+#container #SignUpContainer {
+    margin: 1.5rem 0;
+}
+
+#container #SignUpContainer #SignUpTitle {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+#container #SignUpContainer #signUpForm {
+    margin-top: 2rem;
+    width: 23rem;
+    padding: 1rem;
+}
+
+#container #SignUpContainer #signUpForm div {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    position: relative;
+    left: -0.5rem;
+    padding-bottom: 0.25rem;
+    cursor: default;
+    font-family: 'Ysabeau', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#container #SignUpContainer #signUpForm input {
+    width: 100%;
+    font-size: 1.1rem;
+    position: relative;
+    left: -0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(168, 171, 212);
+}
+
+#container #SignUpContainer #signUpForm .btnContainer {
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
+    width: 105%;
+    justify-content: space-between;
+}
+
+#container #SignUpContainer #signUpForm .btnContainer button {
+    position: relative;
+    padding: 0.4rem 1rem;
+    background-color: rgb(61, 61, 225);
+    color: rgb(234, 234, 243);
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 15px;
+    transition: all 0.2s;
+}
+
+#confirmOTP {
+    background-color: rgba(203, 255, 202, 0.8) !important;
+    color: rgb(21, 165, 16) !important;
+    border: 2px solid rgb(21, 165, 16) !important;
+}
+
+#createPwdBtn {
+    background-color: rgba(240, 202, 255, 0.8) !important;
+    color: rgb(118, 16, 165) !important;
+    border: 2px solid rgb(118, 16, 165) !important;
+}

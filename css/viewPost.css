@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@300&display=swap');
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(148, 185, 209), rgb(37, 112, 188));
+}
+
+#viewPostTitle {
+    margin: 5rem 0 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+#viewPostContainer {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    width: 75vw;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 15px;
+}
+
+#viewPostContainer div {
+    font-family: 'Ysabeau', sans-serif;
+}
+
+#viewPostContainer #viewPostTopic {
+    width: 75%;
+    position: relative;
+    margin-top: 2.5rem;
+    left: 12%;
+    font-weight: 600;
+    font-family: 'Murecho', sans-serif;
+    padding: 0.3rem 0.4rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    outline: none;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+}
+
+#viewPostContainer #viewDateandTime {
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    font-size: 1.3rem;
+    padding-bottom: 0.2rem;
+    margin-bottom: 1rem;
+    ;
+    border: 2px solid transparent;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(224, 234, 239);
+}
+
+#viewPostContainer #viewThumbnail, #viewPostContainer #viewImage {
+    cursor: default;
+}
+
+#viewPostContainer #viewThumbnail, #viewPostContainer #viewVideo, #viewPostContainer #viewImage {
+    position: relative;
+    left: 12.5%;
+    width: 75%;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 1.5rem 0;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+#viewPostContainer #viewVideo {
+    cursor: pointer;
+}
+
+#viewPostContainer #acceptImgVideo:hover {
+    border: 2px solid rgba(224, 234, 239, 0.6);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+#viewPostContainer #viewPostContent {
+    position: relative;
+    left: calc(7.5% - 0.2rem);
+    width: 85%;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: 'Murecho', sans-serif;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.15));
+    padding: 0.5rem 0.4rem;
+    -webkit-overflow-scrolling: none;
+}
+
+#viewPostContainer #backBtn {
+    position: relative;
+    left: 12.5%;
+    width: 6rem;
+    font-size: 1rem;
+    padding: 0.28rem 0rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 7px;
+    color: aliceblue;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.3px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    background-color: #f64141;
+    transition: all 0.2s;
+}
+
+#viewPostContainer #backBtn:hover {
+    background-color: #fe2d2d;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}

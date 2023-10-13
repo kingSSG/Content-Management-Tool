@@ -1,0 +1,48 @@
+#searchBox {
+    height: fit-content !important;
+    cursor: default;
+}
+
+#searchBoxTitle {
+    text-align: center;
+    margin-top: 1.7rem;
+}
+
+#profileContainer {
+    width: 80%;
+    margin: 1.7rem 0;
+}
+
+#profileContainer div {
+    margin: 0.5rem 0;
+}
+
+#logOutBtn {
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 10px;
+    margin: 2vh 0 2rem 2rem;
+    outline: none;
+    cursor: pointer;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.2rem 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c34b4b;
+    transition: all 0.3s ease-out;
+    border: 2px solid rgba(163, 120, 120, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+#logOutBtn:hover {
+    background-color: #b62a2a;
+}
+
+#container ul .postID {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    visibility: hidden;
+}

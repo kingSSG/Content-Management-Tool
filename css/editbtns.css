@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@300&display=swap');
+
+.fnBtnContainer {
+    font-family: 'Ysabeau', sans-serif;
+    width: 75%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-left: 12.5%;
+    transition: all 0.3s;
+}
+
+.fnBtnContainer button {
+    font-size: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.fnBtnContainer #editBtn {
+    border: 2px solid rgb(72, 72, 72);
+    color: rgb(72, 72, 72);
+    padding: 0.4rem 0.7rem;
+    background-color: rgba(126, 126, 254, 0.265);
+}
+
+.fnBtnContainer #editBtn:hover {
+    color: blue;
+    border: 2px solid blue;
+}

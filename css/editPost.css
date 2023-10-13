@@ -1,0 +1,52 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(148, 209, 203), rgb(77, 152, 213));
+}
+
+#createPostContainer #saveBtn {
+    position: relative;
+    left: 12.5%;
+    width: 6rem;
+    font-size: 1rem;
+    padding: 0.28rem 0rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 7px;
+    color: aliceblue;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.3px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    background-color: #466cf7;
+    transition: all 0.2s;
+}
+
+#createPostContainer #saveBtn:hover {
+    background-color: #2d5afe;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#deleteBtn {
+    position: absolute;
+    top: 12rem;
+    left: 79%;
+    width: 1.7rem;
+    fill: rgba(57, 42, 129, 0.774);
+    background-color: transparent;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+#deleteBtn:hover {
+    fill: rgb(219, 3, 3);
+}
+
+#createPostContainer img {
+    width: 40%;
+    margin-left: 12.8%;
+}
